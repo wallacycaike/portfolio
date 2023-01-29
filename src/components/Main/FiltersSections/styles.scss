@@ -1,0 +1,36 @@
+.skills__content {
+  display: none;
+}
+
+.skills__content.filters__active {
+  display: grid;
+  justify-content: center;
+  column-gap: 3rem;
+  row-gap: 3.5rem;
+
+  @media screen and (min-width: 776px) {
+    grid-template-columns: repeat(2, 332px);
+  }
+}
+
+.projects__content {
+  display: none;
+}
+
+.projects__content.filters__active {
+  display: grid;
+  gap: 1.5rem;
+
+  @media screen and (min-width: 576px) {
+    grid-template-columns: 332px;
+    justify-content: center;
+  }
+
+  @media screen and (min-width: 776px) {
+    grid-template-columns: repeat(2, 332px);
+  }
+
+  @media screen and (min-width: 992px) {
+    gap: 2rem 3rem;
+  }
+}

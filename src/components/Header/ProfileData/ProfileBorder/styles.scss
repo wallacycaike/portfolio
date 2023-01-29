@@ -1,0 +1,32 @@
+.profile__perfil {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+
+  @media screen and (min-width: 992px) {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+.profile__perfil img {
+  width: 100%;
+}
+
+.profile__border {
+  border: 3.5px solid var(--first-color);
+  justify-self: center;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-bottom: 0.75rem;
+
+  @media screen and (min-width: 992px) {
+    width: 135px;
+    height: 135px;
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,19 @@
+.profile__data {
+  display: grid;
+  text-align: center;
+}
+
+.profile__name {
+  font-size: var(--h2-font-size);
+}
+
+.profile__profession {
+  font-size: var(--smaller-font-size);
+  font-weight: 500;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+
+  @media screen and (min-width: 992px) {
+    margin-bottom: 1.5rem;
+  }
+}

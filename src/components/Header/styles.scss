@@ -1,0 +1,12 @@
+.profile {
+  position: relative;
+  padding-top: 3.5rem;
+
+  @media screen and (min-width: 992px) {
+    padding-top: 4rem;
+  }
+}
+
+.profile__container {
+  row-gap: 2rem;
+}

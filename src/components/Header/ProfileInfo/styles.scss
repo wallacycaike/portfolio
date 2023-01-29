@@ -1,0 +1,13 @@
+.profile__info {
+  grid-template-columns: repeat(3, max-content);
+  justify-content: center;
+  column-gap: 2.5rem;
+
+  @media screen and (max-width: 333px) {
+    column-gap: 1.5rem;
+  }
+
+  @media screen and (min-width: 992px) {
+    column-gap: 3rem;
+  }
+}
