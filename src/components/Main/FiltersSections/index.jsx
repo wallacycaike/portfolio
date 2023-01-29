@@ -2,51 +2,59 @@ import { ProjectsCard } from "./ProjectsCard";
 import { SkillsArea } from "./SkillsArea";
 import "./styles.scss";
 
+import urlShortenerImg from "../../../assets/img/project_url_shortener.png";
+import ipTrackerImg from "../../../assets/img/project_ip_tracker.png";
+import adviceGeneratorImg from "../../../assets/img/project_advice_generator.png";
+import relogioClimaImg from "../../../assets/img/project_weather_date.png";
+import listaDeTarefasImg from "../../../assets/img/project_todo_list.png";
+import fyloLandingPageImg from "../../../assets/img/project_fylo_landing_page.png";
+import errorPageImg from "../../../assets/img/project_responsive_404_page.png";
+
 const projects = [
   {
-    projectImg: "./src/assets/img/project_url_shortener.png",
+    projectImg: urlShortenerImg,
     altImg: "imagem do URL Shortener",
     projectSubtitle: "Web",
     projectTitle: "URL Shortener",
     projectLink: "https://wat-shortener.vercel.app/",
   },
   {
-    projectImg: "./src/assets/img/project_ip_tracker.png",
+    projectImg: ipTrackerImg,
     altImg: "imagem do Ip Tracker",
     projectSubtitle: "Web",
     projectTitle: "Ip Tracker",
     projectLink: "https://wat-ip-tracker.vercel.app/",
   },
   {
-    projectImg: "./src/assets/img/project_advice_generator.png",
+    projectImg: adviceGeneratorImg,
     altImg: "imagem Advice Generator",
     projectSubtitle: "Web",
     projectTitle: "Advice Generator",
     projectLink: "https://wat-advice-generator.vercel.app/",
   },
   {
-    projectImg: "./src/assets/img/project_weather_date.png",
+    projectImg: relogioClimaImg,
     altImg: "imagem Relógio & Clima",
     projectSubtitle: "Web",
     projectTitle: "Relógio & Clima",
     projectLink: "https://wat-tempo.vercel.app/",
   },
   {
-    projectImg: "./src/assets/img/project_todo_list.png",
+    projectImg: listaDeTarefasImg,
     altImg: "imagem Lista de tarefas",
     projectSubtitle: "Web",
     projectTitle: "Lista de tarefas",
     projectLink: "https://wat-tarefas.vercel.app/",
   },
   {
-    projectImg: "./src/assets/img/project_fylo_landing_page.png",
+    projectImg: fyloLandingPageImg,
     altImg: "imagem Fylo landing page",
     projectSubtitle: "Web",
     projectTitle: "Fylo landing page",
     projectLink: "https://wat-fylo.vercel.app/",
   },
   {
-    projectImg: "./src/assets/img/project_responsive_404_page.png",
+    projectImg: errorPageImg,
     altImg: "imagem Responsive 404 Page",
     projectSubtitle: "Web",
     projectTitle: "Responsive 404 Page",
