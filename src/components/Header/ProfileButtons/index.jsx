@@ -1,5 +1,5 @@
 import "./styles.scss";
-import wallacyCV from "../../../assets/pdf/WallacyCaike-Cv.pdf";
+import wallacyCV from "../../../assets/pdf/Cv-Wallacy-Caike.pdf";
 
 export const ProfileButtons = () => {
   return (
