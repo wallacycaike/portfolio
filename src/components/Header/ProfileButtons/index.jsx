@@ -18,7 +18,7 @@ export const ProfileButtons = () => {
         </a>
 
         <a
-          href="mailto:seuemail@dominio.com"
+          href="mailto:w.caikee12@gmail.com"
           target="_blank"
           className="button button__small button__gray"
         >
